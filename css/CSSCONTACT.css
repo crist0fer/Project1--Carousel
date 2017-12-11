@@ -1,0 +1,116 @@
+       
+       body {
+            padding-top: 210px;
+        }
+        .main-nav {
+            background-color: #FFFDFD;
+            border-color: #3AE81B;
+            border-width: 5px;
+        }
+        .main-nav ul li a {
+            margin-top: 50px;
+            height: 150px;
+            background-color: #FFFDFD;
+            border-color: #3AE81B;
+            border-width: 5px;
+            border-radius: 10px;
+        }
+        .main-nav .navbar-nav li a:focus,
+        .main-nav .navbar-nav li a:hover {
+            color: #51D23A;
+        }
+        .main-nav li a.active {
+            color: #51D23A;
+        }
+        .main-nav li a.active {
+            border: 2px solid  #51D23A;
+            border-radius: 5px;
+        }
+        .carousel-caption {
+            align-content: center;
+        }
+        .DnTLogo {
+            border-radius: 30%;
+        }
+
+
+
+.contact-container {
+  max-width: 600px;
+  align-content: : auto;
+  margin-top: 60px;
+
+
+}
+
+
+.list-item {
+  line-height: 4;
+  list-style-type: none;
+
+
+
+  
+}
+
+---contactformcss---
+
+
+
+#contact2{
+  height:40vh;
+}
+
+#contact {
+  width: 100%;
+  height: 650px;
+  background-color: white;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.contact-header {
+  color: #eee;
+}
+
+.contact-wrapper {
+  margin: 0 auto;
+  padding-top: 125px;
+  position: relative;
+  max-width: 800px;
+}
+
+
+
+
+
+li {
+	margin-right: auto;
+	margin-left: auto;
+	list-style-type: none;
+
+}
+
+.contact-text {
+  font: 300 20px 'Lato', sans-serif;
+  letter-spacing: 1.9px;
+  color: #51D23A;
+
+}
+
+
+.form-control {
+    max-width: 800px;
+}
+
+
+.contact-text a {
+  color: #51D23A;
+  text-decoration: none;
+}
+
+
+
+h3  {
+	color: #51D23A
+}

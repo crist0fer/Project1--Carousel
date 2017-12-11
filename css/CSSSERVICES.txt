@@ -1,0 +1,23 @@
+
+
+
+
+.panel-heading {
+  height: 380px;
+}
+     
+
+
+
+
+
+.panel  {
+  
+  max-width : 500px;
+
+}
+
+
+h1 {
+  color:   #5D123A;
+}
