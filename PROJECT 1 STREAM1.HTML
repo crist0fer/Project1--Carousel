@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Nav</title>
+  <!--add bootsrap css file hre-->
+  <link rel='stylesheet' type='text/css' href='bootstrap/css/bootstrap.min.css' />
+  <style> 
+   body{
+   		padding-top: 70px
+   }
+
+   nav ul li a {
+   	margin-top: 50px;
+   }
+
+#carousel1  {
+
+	margin-top: 100px;
+}
+
+.carousel-caption  {
+
+	text-align: center;
+}
+
+
+  </style>
+</head>
+<body>
+	
+	<nav class="navbar navbar-inverse navbar-fixed-top">		
+		<div class='container'>
+		    <div class=" navbar-header">
+		    	<a class="navbar-brand" href="#">The Old Man Band</a>
+		    </div>	    
+		    <ul  class="nav navbar-nav navbar-right  ">
+				 <li><a href="#">Home</a></li>
+			     <li><a href="#">About</a></li>
+			     <li><a href="#">Band Members</a></li>
+			     <li><a href="#">Business Enquiries/contact</a></li>
+			     <li><a href="#">Tracks</a></li>
+			</ul>
+		</div>
+	</nav>
+	
+ 
+		
+</div>
+
+
+
+
+<div id="carousel1" class="carousel slide" data-ride="carousel">
+
+<ol class="carousel-indicators">
+  <li data-target="#carousel1" data-slide-to="1" class="active"></li>
+  <li data-target="#carousel1" data-slide-to="2"></li>
+  <li data-target="#carousel1" data-slide-to=""></li>
+  </ol>
+
+<!--Wrapper for slides -->
+
+  <div class="carousel-inner" role="listbox">
+   <div class="item active">
+   <img src="img/graphic1.png" alt="0">
+   <div class="carousel-caption">
+   Picture 1
+   </div>
+   </div>
+   ...
+   </div>
+
+  <div class="carousel-inner" role="listbox">
+   <div class="item active">
+   <img src="graphic2.png" alt="1">
+   <div class="carousel-caption">
+   Picture 2
+   </div>
+   </div>
+   ...
+   </div>
+   <!-- Controls -->
+
+   <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel1" role="button" data-slide="next">
+
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+    </a>
+    </div>
+   
+
+
+</body>
+
+<script src='http://code.jquery.com/jquery.min.js'></script>
+<script src='/bootstrap/js/bootstrap.min.js'></script>
+</html>
