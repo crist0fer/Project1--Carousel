@@ -32,28 +32,29 @@
      
         .DnTLogo {
             border-radius: 30%;
-        } 
+        }
+           button {
+          color: #51D23A !important;
+          border-color: #51D23A !important;
+          background-color: #51D23A !important;
+           }
+         
             
-            
-            
+          .main-image-cont row {
+          max-height: 800px;
+          }
             
          .gallery{
-           margin: 20px 100px;
+           margin: 0px 0px;
            max-width: 1200px;
+           max-height: auto; 
+           background-color: #5ECA59;
            margin-left: auto;
            margin-right: auto;
            }
            
-          .gallery img{
-          display: inline;
-        border-radius: 3px;
-            width: 230px;
-            padding: 5px;
-            filter: grayscale(70%);
-            transition: 0.5s;
-            
-            }
-           .gallery img:hover{
+    
+           .gallery .thumbnail img:hover{
            filter:grayscale(0);
            transform: scale(1.1);
            }  
@@ -62,6 +63,3 @@
            max-height: 100%;
            max-width: auto;
            
-           
-           .thumbnails {
-           display: inline-block; }
